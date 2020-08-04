@@ -7,6 +7,21 @@
 h1, h2 {
   font-family: 'Mulish', sans-serif;
 }
+
+.button-pink {
+  border: none;
+  background: linear-gradient(#FF4F64, #FF4F64);
+  color: rgb(240,240,240);
+  padding: 8px 16px;
+  margin-left: 4px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+
+.button-pink:hover {
+  color: rgb(240,240,240);
+  background: linear-gradient(#FF4F64, #ea1e36);
+}
+
 .banner {
   display: flex;
   align-items: center;
@@ -63,5 +78,6 @@ h1, h2 {
 
   .coming-soon .btn {
     width: 100%;
+    margin-left: 0px;
   }
 }
