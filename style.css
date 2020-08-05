@@ -36,6 +36,7 @@ h1, h2 {
 .banner-content {
   background-color: rgba(0,0,0,0.3);
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   padding: 24px;
 }
 
@@ -78,6 +79,7 @@ h1, h2 {
 
   .coming-soon .btn {
     width: 100%;
+    margin-top: 8px;
     margin-left: 0px;
   }
 }
